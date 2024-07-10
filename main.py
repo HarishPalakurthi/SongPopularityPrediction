@@ -85,7 +85,7 @@ def key_full(key):
     )
 df = df.assign(key = key_full)
 
-pip install pycountry
+#pip install pycountry
 
 import pycountry as pc
 
@@ -256,7 +256,7 @@ plt.show()
 
 pointBiserialCorr = stats.pointbiserialr(x=df['is_explicit'], y=df['danceability'])
 print(f"Point Biserial Correlation: {pointBiserialCorr}")
-Point Biserial Correlation: SignificanceResult(statistic=0.34633359217555554, pvalue=0.0)
+#Point Biserial Correlation: SignificanceResult(statistic=0.34633359217555554, pvalue=0.0)
 
 #We used Point Biserial Correlation, since it is useful when comparing binomial and continuos variables. We see a slight correlation and a significant pvalue.
 
